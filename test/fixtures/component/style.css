@@ -1,0 +1,8 @@
+:root {
+  var-color: red;
+}
+
+.test {
+  color: var(color);
+  transform: translateZ(0);
+}

@@ -1,0 +1,35 @@
+{
+  "name": "component-builder-suit",
+  "description": "A Component(1) builder plugin for processing SUIT CSS",
+  "version": "0.1.0",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "autoprefixer": "1.0.x",
+    "rework": "0.20.x",
+    "rework-suit": "1.0.x"
+  },
+  "devDependencies": {
+    "component-builder": "0.11.x",
+    "mocha": "1.13.x",
+    "should": "1.3.x"
+  },
+  "scripts": {
+    "test": "mocha --require should --no-colors",
+    "watch": "mocha --require should --reporter spec --watch"
+  },
+  "author": "Nicolas Gallagher",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suitcss/component-builder-suit"
+  },
+  "keywords": [
+    "component",
+    "builder",
+    "autoprefixer",
+    "suit",
+    "css"
+  ]
+}
