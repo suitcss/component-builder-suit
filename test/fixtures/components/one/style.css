@@ -2,7 +2,7 @@
   var-color: red;
 }
 
-.test {
+.Test {
   color: var(color);
   transform: translateZ(0);
 }

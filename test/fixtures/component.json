@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "paths": [
+    "components"
+  ],
+  "local": [
+    "one"
+  ]
+}
