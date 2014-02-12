@@ -10,8 +10,12 @@ var plugin = require('../');
  */
 
 describe('SUIT builder plugin', function () {
-  var builder = new Builder(__dirname + '/fixtures/component');
-  builder.use(plugin);
+  var builder;
+
+  beforeEach(function () {
+    builder = new Builder(__dirname + '/fixtures/');
+    builder.use(plugin);
+  });
 
   it('should add vendor prefixes to CSS', function (done) {
     builder.build(function (err, res) {
