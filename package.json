@@ -1,7 +1,7 @@
 {
   "name": "component-builder-suit",
-  "description": "A Component(1) builder plugin for processing SUIT CSS",
-  "version": "0.1.0",
+  "description": "A Component(1) builder plugin for SUIT CSS",
+  "version": "0.2.0",
   "files": [
     "index.js"
   ],
