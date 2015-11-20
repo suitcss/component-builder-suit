@@ -1,4 +1,4 @@
-# component-builder-suit
+# component-builder-suit (DEPRECATED)
 
 A [Component(1)](https://github.com/component/component) builder plugin for use
 with [SUIT CSS](https://github.com/suitcss/suit).
